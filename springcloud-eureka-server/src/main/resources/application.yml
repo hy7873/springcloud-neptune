@@ -1,7 +1,5 @@
 server:
     port: 8761
-    sererlet:
-        context-path: /eureka
 eureka:
     instance:
         hostname: localhost

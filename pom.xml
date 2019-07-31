@@ -23,6 +23,7 @@
 		<module>springcloud-eureka-server</module>
         <module>springcloud-eureka-client</module>
 		<module>springcloud-ribbon</module>
+		<module>springcloud-feign</module>
 	</modules>
 
 	<dependencies>

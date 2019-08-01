@@ -7,3 +7,10 @@ server:
 spring:
   application:
     name: service-ribbon
+
+#暴露全部监控信息
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: "*"

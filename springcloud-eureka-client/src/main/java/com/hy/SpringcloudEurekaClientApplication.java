@@ -18,7 +18,7 @@ public class SpringcloudEurekaClientApplication {
 
 	@RequestMapping("/hi")
 	public String home(@RequestParam(value = "name") String name) {
-		return "hello " + name + "!!!!";
+		return "hello " + name + " !!!!,i am from service port 8672";
 	}
 
 }

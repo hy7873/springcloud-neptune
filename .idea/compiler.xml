@@ -10,6 +10,7 @@
         <module name="springcloud-eureka-server" />
         <module name="springcloud-feign" />
         <module name="springcloud-ribbon" />
+        <module name="springcloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -18,6 +19,7 @@
       <module name="springcloud-feign" target="1.8" />
       <module name="springcloud-neptune" target="1.8" />
       <module name="springcloud-ribbon" target="1.8" />
+      <module name="springcloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

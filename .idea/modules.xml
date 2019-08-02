@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-feign/springcloud-feign.iml" filepath="$PROJECT_DIR$/springcloud-feign/springcloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-neptune.iml" filepath="$PROJECT_DIR$/springcloud-neptune.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-ribbon/springcloud-ribbon.iml" filepath="$PROJECT_DIR$/springcloud-ribbon/springcloud-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" />
     </modules>
   </component>
 </project>

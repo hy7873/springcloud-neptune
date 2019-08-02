@@ -14,12 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
  * @Description:
  */
 @RestController
+@RequestMapping("/test")
 public class TestController {
 
     @Autowired
     private TestService testService;
 
-    @RequestMapping(value = "/testHello",method = RequestMethod.GET)
+    @RequestMapping(value = "/test1",method = RequestMethod.GET)
     public String testHello(@RequestParam(value = "name") String name) {
         return testService.testHello(name);
     }

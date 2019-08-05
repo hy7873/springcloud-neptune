@@ -17,9 +17,12 @@ public class SpringcloudConfigClientApplication {
 	@Value("${key1}")
 	private String key1;
 
+	@Value("${key2}")
+	private String key2;
+
 	@RequestMapping("/test-config")
 	public String test() {
-		return key1;
+		return key1 + " | " + key2;
 	}
 
 }

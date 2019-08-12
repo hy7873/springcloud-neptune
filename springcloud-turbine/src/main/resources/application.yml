@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: service-turbine
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8775
+
+turbine:
+  appConfig: service-client1,service-lucky
+  aggregator:
+    clusterConfig: default
+  clusterNameExpression: new String("default")
+  instanceUrlSuffix:
+    default: hystrix.stream
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

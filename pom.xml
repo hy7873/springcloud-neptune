@@ -26,6 +26,7 @@
 		<module>springcloud-feign</module>
 		<module>springcloud-zuul</module>
 		<module>springcloud-config-server</module>
+		<module>springcloud-config-client</module>
 		<module>springcloud-config</module>
 		<module>springcloud-turbine</module>
 		<module>springcloud-service-lucky</module>

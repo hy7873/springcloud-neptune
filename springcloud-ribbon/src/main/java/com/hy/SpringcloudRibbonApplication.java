@@ -11,6 +11,9 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * 客户端负载均衡（由请求发起者决定调用哪一个）
+ */
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableHystrix
@@ -23,7 +26,7 @@ public class SpringcloudRibbonApplication {
 
 	@Bean
 	@LoadBalanced
-	public RestTemplate getRestTemplate() {
+	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
 
